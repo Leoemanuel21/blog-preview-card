@@ -38,40 +38,71 @@ main > section{
     background-color: var(--White);
     width: 90vw;
     border-radius: 20px;
+    box-shadow: 10px 10px black;
+    max-width: 375px;
+    padding: 1rem;
 }
 
 main > section > img{
     display: block;
-    width: 90%;
+    height: auto;
+    width: 100%;
 }
 
 main > section > h1{
-    margin-left: 20px;
     font-weight: 800;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
 }
 
 main > section > h2.learning{
     background-color: var(--Yellow);
     color: black;
     display: inline-block;
-    margin-bottom: 0px;
+    /*margin-bottom: 0px;
     padding: 5px 10px;
     font-size: 1em;
     font-weight: 800;
+    border-radius: 4px;*/
+    font-weight: 800;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
 }
 
 main > section > h2{
-    margin-left: 20px;
     font-size: 1em;
     font-weight: 800;
 }
 
 main > section > p{
-    margin-left: 20px;
+    margin-bottom: 0.5rem;
+    color: var(--Gray500);
+    font-size: 0.75rem;
 }
 
-main > section > p.gray{
+main > section > p.descrição{
     color: var(--Gray500);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+main > section > div{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+main > section > div > img{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+main > section > div > h2.autor{
+    font-size: 0.9rem;
+    font-weight: 800;
 }
 
 footer{
