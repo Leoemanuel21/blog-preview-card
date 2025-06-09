@@ -19,28 +19,23 @@
 body{
     background-color: var(--Yellow);
     font-family: var(--fonte-destaque);
+    padding: 2em;
+    min-height: 100vh;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    padding: 2em;
-    min-height: 100vh;
 }
 
 main{
     background-color: white;
     border-radius: 1rem;
     box-shadow: 10px 10px black;
-    max-width: 375px;
+    max-width: 320px;
     overflow: hidden;
 }
 
 main > section{
-    /*background-color: var(--White);
-    width: 90vw;
-    border-radius: 20px;
-    box-shadow: 10px 10px black;
-    max-width: 375px;*/
     padding: 1em;
 }
 
