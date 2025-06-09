@@ -31,8 +31,9 @@ main{
     background-color: white;
     border-radius: 1rem;
     box-shadow: 10px 10px black;
-    max-width: 320px;
+    max-width: 330px;
     overflow: hidden;
+    margin: 1em;
 }
 
 main > section{
@@ -97,5 +98,5 @@ main > section > div > h2.autor{
 }
 
 footer{
-
+    text-align: center;
 }
