@@ -52,6 +52,15 @@ main > section > h1{
     margin-bottom: 0.5em;
 }
 
+main > section > h1 > a{
+    text-decoration: none;
+    color: black;
+}
+
+main > section > h1 > a:hover{
+    color: var(--Yellow);
+}
+
 main > section > h2.learning{
     background-color: var(--Yellow);
     color: black;
@@ -92,7 +101,7 @@ main > section > div > img{
     height: 32px;
 }
 
-main > section > div > h2.autor{
+main > section > div > h2.avatar{
     font-size: 0.9em;
     font-weight: 800;
 }
