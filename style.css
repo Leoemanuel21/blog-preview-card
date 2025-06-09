@@ -19,7 +19,7 @@
 body{
     background-color: var(--Yellow);
     font-family: var(--fonte-destaque);
-    padding: 2em;
+    margin: 0em;
     min-height: 100vh;
     display: flex;
     flex-flow: column nowrap;
